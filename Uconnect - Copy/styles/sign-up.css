@@ -1,0 +1,51 @@
+body{
+    background-color: #f5f5f5;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px double rgba(18, 46, 173, 0.658);
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    font-family: calibri;   
+    border-radius: 5px;
+}
+#google-sign-btn{
+    width: 300px;
+    height: 45px;
+    margin: 10px 0px;
+    background-color: rgb(88, 88, 233);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+}
+input{
+    width: 275px;
+    height: 30px;
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.5px solid rgba(0, 0, 0, 0.459);
+}
+input::placeholder{
+    text-transform: capitalize;
+    padding: 10px;
+}
+#sign-up-btn{
+    width: 300px;
+    height: 45px;
+    margin: 10px 0px;
+    background-color: rgb(88, 88, 233);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 100ms ease-in-out;
+}
+#sign-up-btn:hover{
+    background-color: rgba(88, 88, 233, 0.685); 
+}

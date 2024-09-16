@@ -1,0 +1,131 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 100px;
+    row-gap: 40px;
+    font-family: calibri;
+
+}
+#nav-elements{
+    display: flex;
+    column-gap: 40px;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    list-style: none;
+    text-decoration: none;
+}
+#nav-elements a{
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    transition: ease-out 0.3s;
+    color: rgb(0, 0, 0);
+}
+#nav-elements a:hover{
+    border-bottom: 3px solid black;
+    padding-bottom: 5px;
+}
+#sign-div{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+#sign-div button{
+    padding: 8px 20px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+}
+#sign-div a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+    text-wrap: nowrap;
+    
+}
+/* toggle button */
+#display-nav-btn{
+    display: none;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.836);
+    color: white;
+    height: 25px;
+    border-radius: 3px;
+    width: 50px;
+}
+/* Hidden nav styles */
+#hidden-nav{
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.904);
+    position: absolute;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+#hidden-nav a{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#hidden-nav ul{
+    list-style-type: none;
+}
+#hidden-nav li{
+    margin-top: 20px;
+    text-align: center;
+}
+/* media query screen size  */
+@media(max-width:900px){
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 80px;
+        align-items: center;
+        padding: 20px;
+        margin-top: 10px;
+        row-gap: 40px;
+    
+    }
+    #nav-elements{
+        display: none;
+        column-gap: 40px;
+        text-transform: uppercase;
+        text-wrap: nowrap;
+        list-style: none;
+        text-decoration: none;
+    }
+    #sign-div{
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        font-weight: 600;
+        font-size: 12px;
+        display: none;
+    }
+    #display-nav-btn{
+        display: block;
+    }
+}
+
+
+

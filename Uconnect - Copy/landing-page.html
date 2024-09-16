@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/header-style.css">
+    <link rel="stylesheet" href="styles/footer-style.css">
+    <link rel="stylesheet" href="styles/landing page.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+</head>
+<body>
+    <!-- Header and navigation section here -->
+    <header>
+        <nav>
+            <div class="logo">LOGO</div>
+
+            <div>
+                <ul id="nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div id="sign-div">
+                <a href="sign-up.html" id="sign-in-link">SIGN-IN</a>
+                
+                <a href="sign-up.html" id="sign-up-link">
+                    <button>SIGN-UP</button>
+                </a>
+            </div>
+
+            <div id="hidden-nav">
+                <ul id="hidden-nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="display-nav-btn">Menu</button>
+            </div>
+
+            <!-- Javascript here................................................. -->
+            <script>
+                let isHidden = true;
+                var myBtn = document.getElementById('display-nav-btn');
+                var hiddenNav = document.getElementById('hidden-nav');
+                myBtn.addEventListener('click', function(){
+                    if( isHidden){
+                        hiddenNav.style.display = 'flex';
+                        isHidden = false;
+                    }
+                    else{
+                        hiddenNav.style.display = 'none';
+                        isHidden = true;
+                    }
+                    
+                })
+            </script>
+        </nav>
+        
+    </header>
+    <!-- First container -->
+
+    <div class="first-container">
+
+        <div class="text-side">
+            <div>
+                <h1>Students Choice.</h1>
+                <p class="intro-text">Creating a platform for Connecting, Educating and Sharing.</p>
+            </div>
+            <div>
+                <h2>Now Available!</h2>
+
+                <div class="download-area">
+                    <button class="download-btn">
+                        <div>
+                            <img src="images/play-store-icon.png">
+                        </div>
+                        <div>
+                            <p>get it on</p>
+                            <h2>Play store</h2>
+                        </div>
+                    </button>
+
+                    <button class="download-btn">
+                        <div>
+                            <img src="images/apple-icon.png">
+                        </div>
+                        <div>
+                            <p>get it on</p>
+                            <h2>App store</h2>
+                        </div>
+                    </button>
+                </div>
+                    
+                
+            </div>
+        </div>
+
+        <div class="side-image">
+            <img src="images/library-image.jpeg" alt="side image" id="side-img-1">
+        </div>
+
+    </div>
+
+     <!-- Second container starts here -->
+     
+    <div class="second-container">
+        <div class="container2-contents">
+            <h1>Explore our Catalogue</h1>
+            <div class="container2-cards"></div>
+            <div class="container2-cards"></div>
+            <div class="container2-cards"></div>
+            <div class="container2-cards"></div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+       
+
+    <!-- Third contaier starts here -->
+     <div class="container-3-heading">
+        <h6>Resources</h6>
+        <h3>Favourite Topics to Pick</h2>
+     </div>
+     
+     
+     <div class="third-container">
+
+            <div class="container3-cards">
+                <div>
+                    <img src="images/IMG-20240830-WA0002.jpg">
+                </div>
+                <div>Physics</div>
+                <div>
+                    <button class="container3-btn">Explore</button>
+                </div>
+
+            </div>
+            <div class="container3-cards">
+                <div>
+                    <img src="images/IMG-20240830-WA0002.jpg">
+                </div>
+                <div>Mathematics</div>
+                <div>
+                    <button class="container3-btn">Explore</button>
+                </div>
+
+            </div>
+            <div class="container3-cards">
+                <div>
+                    <img src="images/IMG-20240830-WA0002.jpg">
+                </div>
+                <div>Arts</div>
+                <div>
+                    <button class="container3-btn">Explore</button>
+                </div>
+
+            </div>
+            <div class="container3-cards">
+                <div>
+                    <img src="images/IMG-20240830-WA0002.jpg">
+                </div>
+                <div>Law</div>
+                <div>
+                    <button class="container3-btn">Explore</button>
+                </div>
+
+            </div>
+            <div class="container3-cards">
+                <div>
+                    <img src="images/IMG-20240830-WA0002.jpg">
+                </div>
+                <div>Biological Sciences  </div>
+                <div>
+                    <button class="container3-btn">Explore</button>
+                </div>
+
+            </div>
+           
+     </div>
+     <!-- Third contaier ends here -->
+
+     <!-- Fourth container starts here -->
+      <div class="fourth-container">
+
+        <div class="side-img">
+            <img src="images/IMG-20240830-WA0011.jpg" alt="side image">
+        </div>
+
+        <div class="container4-text">
+            <div>
+                <h3>About Students Choice</h3>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel temporibus illo, eveniet minima officia, nihil hic voluptates perferendis aspernatur ipsum porro. Laborum, aut impedit? Ratione accusamus deleniti quisquam odit nemo totam numquam, animi magnam alias adipisci dolorem doloremque cupiditate tempore expedita quae error maxime. Eos dolore itaque minus provident magni.</p>
+            </div>
+            <div>
+                <button>
+                    Learn more About us
+                </button>
+            </div>
+        </div>
+
+      </div>
+        
+    <!--footer styles here..............  -->
+    <footer>
+        <div class="footer">
+            <div class="footer-contact">
+                <h3>Contact us</h3>
+                <p>+234-7000000000</p>
+                <p>Usmanu Danfodiyo University, Sokoto.</p>
+                <p>johndoe766@yahoo.coms</p>
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Quick Links</li>
+                    <li>Useful Links</li>
+                    <li>Resources</li>
+                    <li>Take a quick tour</li>
+                </ul>
+                
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Site</h3></li>
+                    <li>Home</li>
+                    <li>Contact US</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Academics</li>
+                    <li>Support</li>
+                    <li>Help</li>
+                </ul>
+                
+            </div>
+            <div>
+                <h3>Subscribe to our Newsletter</h3>
+                <div class="footer-search-bar">
+                    <input type="Search">
+                    <button>Submit</button>
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><img src="images/icons/facebook.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/twitter.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/youtube.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/linkedin.svg" class="icons"></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

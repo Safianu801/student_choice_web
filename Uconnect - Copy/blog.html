@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/header-style.css">
+    <link rel="stylesheet" href="styles/footer-style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        #blog-container{
+            margin: 50px;
+            height: 1000px;
+        }
+        textarea{
+            width: 800px;
+            height: 400px;
+            margin-bottom: 100px;
+        }
+        h2{
+            text-align: center;
+            text-transform: uppercase;
+        }
+        #blog-area{
+            display: none;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LOGO</div>
+
+            <div>
+                <ul id="nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div id="sign-div">
+                <a href="sign-up.html" id="sign-in-link">SIGN-IN</a>
+                
+                <a href="sign-up.html" id="sign-up-link">
+                    <button>SIGN-UP</button>
+                </a>
+            </div>
+
+            <div id="hidden-nav">
+                <ul id="hidden-nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="display-nav-btn">Menu</button>
+            </div>
+
+            <!-- Javascript here................................................. -->
+            <script>
+                let isHidden = true;
+                var myBtn = document.getElementById('display-nav-btn');
+                var hiddenNav = document.getElementById('hidden-nav');
+                myBtn.addEventListener('click', function(){
+                    if( isHidden){
+                        hiddenNav.style.display = 'flex';
+                        isHidden = false;
+                    }
+                    else{
+                        hiddenNav.style.display = 'none';
+                        isHidden = true;
+                    }
+                    
+                })
+            </script>
+        </nav>
+        
+
+    </header>
+
+    <div id="blog-container">
+        <h2>Visitor's post</h2>
+        <button id="blog-reveal">WRITE A POST</button>
+        <button>SHARE AN IMAGE</button>
+        <div id="image-share"></div>
+        <div id="blog-area">
+            <textarea></textarea>
+        </div>
+    </div>
+
+    <script>
+        const blogHider = document.getElementById('blog-reveal') ;
+        const blogArea = document.getElementById('blog-area');
+
+        blogHider.addEventListener('click', function(){
+            blogArea.style.display = 'block';
+        })
+    </script>
+    
+
+
+
+    <!--footer styles here..............  -->
+    <footer>
+        <div class="footer">
+            <div class="footer-contact">
+                <h3>Contact us</h3>
+                <p>+234-7000000000</p>
+                <p>Usmanu Danfodiyo University, Sokoto.</p>
+                <p>johndoe766@yahoo.coms</p>
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Quick Links</li>
+                    <li>Useful Links</li>
+                    <li>Resources</li>
+                    <li>Take a quick tour</li>
+                </ul>
+                
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Site</h3></li>
+                    <li>Home</li>
+                    <li>Contact US</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Academics</li>
+                    <li>Support</li>
+                    <li>Help</li>
+                </ul>
+                
+            </div>
+            <div>
+                <h3>Subscribe to our Newsletter</h3>
+                <div class="footer-search-bar">
+                    <input type="Search">
+                    <button>Submit</button>
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><img src="images/icons/facebook.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/twitter.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/youtube.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/linkedin.svg" class="icons"></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html

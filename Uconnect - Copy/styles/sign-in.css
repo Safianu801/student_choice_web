@@ -1,0 +1,64 @@
+body{
+    background-color: #f5f5f5;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px double rgba(18, 46, 173, 0.658);
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    font-family: calibri;   
+    border-radius: 5px;
+}
+#welcome-txt{
+    font-weight: 600;
+    font-size: 30px;
+}
+#misc-txt{
+    font-weight: 510;
+    margin-top: 0px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0.3px;
+    width: 300px;
+    text-align: center;
+}
+input{
+    width: 290px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.6px solid rgba(0, 0, 0, 0.356);
+}
+input::placeholder{
+    text-transform: capitalize;
+}
+#forget-password{
+    text-align: right;
+    margin-right: 10px;
+    font-weight: 550;
+    font-size: 13px;
+}
+#sign-in-btn{
+    width: 320px;
+    height: 45px;
+    background-color: rgb(88, 88, 233);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: all 100ms ease-in-out;
+}
+#sign-in-btn:hover{
+    background-color: rgba(88, 88, 233, 0.685); 
+}
+#sign-up-divider{
+    text-align:center;
+    margin-top: 20px;
+}
+#sign-up-link{
+    text-align: center;
+
+}

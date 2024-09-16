@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Account</title>
+    <style>
+        *{
+            margin: 0px;
+            font-family: calibri;
+        }
+        header{
+            padding: 10px 20px;
+            font-family: Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(104, 207, 255);
+            color: white;
+           
+        }
+        #navigation{
+            display: flex; 
+            justify-content: space-between;
+            margin: 10px 50px 5px 100px;
+        }
+        #nav-links{
+            display: flex;
+            justify-content: space-between;
+        }
+        #nav-links a{
+            color: white;
+            font-weight: 520;
+            font-size: large;
+            text-decoration: none;
+        }
+        #sign-up-link{
+            padding: 10px;
+            background-color: rgb(2, 1, 46);
+            border: none;
+            border-radius: 5px;
+        }
+        #nav-links div{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .profile-image > img{
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgb(2, 16, 141);
+            border-radius: 50px;
+            background-color: white;
+            margin-right: 20px;
+            padding: 10px;
+        }
+        #profile{
+            display: flex;
+            align-items: center;
+            font-family: calibri;
+            font-size: 16px;
+            width: 300px;
+            font-weight: bold;
+        }
+        .slider{
+            display: flex;
+            width: 1000px;
+            margin: 50px;
+            flex-direction: column;
+        }
+        .cards{
+            min-width: 200px;
+            height: 200px;
+            border: 1px solid;
+            margin: 10px;
+            background-image: url("student-image.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+        .container-label{
+            display: flex;
+            justify-content: space-between;
+        }
+        .cards-container{
+            display: flex;
+            width: 1000px;
+            overflow-x: auto;
+        }
+        .cards-container::-webkit-scrollbar{
+            display: none;
+        }
+
+
+        
+    </style>
+</head>
+
+<!-- Body section -->
+<body>
+
+
+<!-- Header and Navigation -->
+   <header>
+        <nav id="navigation">
+
+            <div id="profile">
+                <div class="profile-image">
+                    <img src="images\student-image.png" alt="profile image">
+                </div>
+                <div>
+                    Hello John. <br>
+                    What are we up to today?
+                </div>
+
+            </div>
+
+            <div id="nav-links">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Contact Us</a></div>
+                <div><a href="#">Academics</a></div>
+
+            </div>
+        </nav>
+   </header> 
+<!-- Header and Nav ends -->
+
+<div class="slider">
+    <div class="container-label">
+        <div><h3>#physics</h3></div>
+        <div><a href="#">see more</a></div>
+    </div>
+    <div class="cards-container">
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        
+    </div>
+
+</div>
+<div class="slider">
+    <div class="container-label">
+        <div><h3>#physics</h3></div>
+        <div><a href="#">see more</a></div>
+    </div>
+    <div class="cards-container">
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        
+    </div>
+
+</div>
+<div class="slider">
+    <div class="container-label">
+        <div><h3>#physics</h3></div>
+        <div><a href="#">see more</a></div>
+    </div>
+    <div class="cards-container">
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        <div class="cards"></div>
+        
+    </div>
+
+</div>
+
+<aside>
+    <div>
+        <h3>Browse by Level</h3>
+        <button>100 level</button>
+        <button>200 level</button>
+        <button>300 level</button>
+        <button>400 level</button>
+        <button>500 level</button>
+        <button>600 level</button>
+        <button>700 level</button>
+    </div>
+    <div>
+        <h3>Browse by Faculty</h3>
+        <button>Physical and Computing science</button>
+        <button>Law</button>
+        <button>300 </button>
+        <button>400 level</button>
+        <button>500 level</button>
+        <button>600 level</button>
+        <button>700 level</button>
+    </div>
+    
+</aside>
+
+
+
+
+
+
+</body>
+</html>

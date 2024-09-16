@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/header-style.css">
+    <link rel="stylesheet" href="styles/footer-style.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> us</title>
+</head>
+<body>
+
+    <!-- Header and Navigation here.... -->
+    <header>
+        <nav>
+            <div class="logo">LOGO</div>
+
+            <div>
+                <ul id="nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div id="sign-div">
+                <a href="sign-up.html" id="sign-in-link">SIGN-IN</a>
+                
+                <a href="sign-up.html" id="sign-up-link">
+                    <button>SIGN-UP</button>
+                </a>
+            </div>
+
+            <div id="hidden-nav">
+                <ul id="hidden-nav-elements">
+                    <li><a href="landing-page.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <button id="display-nav-btn">Menu</button>
+            </div>
+
+            <!-- Javascript here................................................. -->
+            <script>
+                let isHidden = true;
+                var myBtn = document.getElementById('display-nav-btn');
+                var hiddenNav = document.getElementById('hidden-nav');
+                myBtn.addEventListener('click', function(){
+                    if( isHidden){
+                        hiddenNav.style.display = 'flex';
+                        isHidden = false;
+                    }
+                    else{
+                        hiddenNav.style.display = 'none';
+                        isHidden = true;
+                    }
+                    
+                })
+            </script>
+        </nav>
+        
+
+            
+    </header>
+
+     <!-- Main body goes here.............. -->
+      <main>
+        <div class="heading">
+            <h1 id="heading-text">About us</h1>
+            
+        </div>
+        
+        <!-- Story container here -->
+        <div class="story-container">
+            <div class="story-text">
+                <h2>Our Story</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quasi natus autem, sed totam ducimus expedita dolores, tempore perspiciatis perferendis impedit. Quae minus qui ea quis itaque modi repellendus aut ipsa earum, ut enim veritatis aspernatur illo, dicta non dolores perspiciatis eum ex saepe. Suscipit hic eum dignissimos ad veniam.</p>
+            </div>
+            <div class="side-image">
+                <img src="images/IMG-20240830-WA0002.jpg">
+            </div>
+        </div>
+
+        <!-- cards container here -->
+         <h2>ALL MEMBER</h2>
+        <div class="about-cards-container">
+
+            <!-- card -->
+            <div class="cards">
+                <div>
+                    <img src="images/IMG-20240905-WA0036.jpg" class="images">
+                </div>
+                <div class="name">
+                    Jake Doe
+                </div>
+                <div class="job-title">
+                    Back End Developer
+                </div>
+                <div class="social-links">
+                    <a href="#">
+                        <div><img src="images/icons/facebook.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/whatsapp.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/linkedin.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/twitter.svg" class="social-icons"></div>
+                    </a> 
+                </div>
+            </div>
+
+            <!-- card -->
+            <div class="cards">
+                <div>
+                    <img src="images/IMG-20240905-WA0036.jpg" class="images">
+                </div>
+                <div class="name">
+                    Jake Doe
+                </div>
+                <div class="job-title">
+                    Back End Developer
+                </div>
+                <div class="social-links">
+                    <a href="#">
+                        <div><img src="images/icons/facebook.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/whatsapp.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/linkedin.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/twitter.svg" class="social-icons"></div>
+                    </a> 
+                </div>
+            </div>
+            <!-- card -->
+            <div class="cards">
+                <div>
+                    <img src="images/IMG-20240905-WA0036.jpg" class="images">
+                </div>
+                <div class="name">
+                    Jake Doe
+                </div>
+                <div class="job-title">
+                    Back End Developer
+                </div>
+                <div class="social-links">
+                    <a href="#">
+                        <div><img src="images/icons/facebook.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/whatsapp.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/linkedin.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/twitter.svg" class="social-icons"></div>
+                    </a> 
+                </div>
+            </div>
+
+            <!-- card -->
+            <div class="cards">
+                <div>
+                    <img src="images/IMG-20240905-WA0036.jpg" class="images">
+                </div>
+                <div class="name">
+                    Jake Doe
+                </div>
+                <div class="job-title">
+                    Back End Developer
+                </div>
+                <div class="social-links">
+                    <a href="#">
+                        <div><img src="images/icons/facebook.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/whatsapp.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/linkedin.svg" class="social-icons"></div>
+                    </a> 
+                    <a href="#">
+                        <div><img src="images/icons/twitter.svg" class="social-icons"></div>
+                    </a> 
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- invitation container here -->
+        <div class="invitation-container">
+            <div class="invite-text">
+                <div>
+                    <h1>Do you want to be part of the team</h1>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi sequi inventore nisi ad cupiditate est magnam unde, suscipit culpa placeat dolore eveniet dolorem, eaque mollitia laboriosam assumenda dignissimos ipsam.</p>
+                </div>
+                <div>
+                    <button id="btn">
+                        join us here
+                    </button>
+                </div>
+            </div>
+            <div>
+                <img src="images/IMG-20240830-WA0004.jpg" alt="side images">
+            </div>
+        </div>
+        
+      </main>
+    
+
+
+    <!-- Footer starts here............. -->
+     <!--footer styles here..............  -->
+     <footer>
+        <div class="footer">
+            <div class="footer-contact">
+                <h3>Contact us</h3>
+                <p>+234-7000000000</p>
+                <p>Usmanu Danfodiyo University, Sokoto.</p>
+                <p>johndoe766@yahoo.coms</p>
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Quick Links</li>
+                    <li>Useful Links</li>
+                    <li>Resources</li>
+                    <li>Take a quick tour</li>
+                </ul>
+                
+            </div>
+            <div>
+                <ul>
+                    <li><h3>Site</h3></li>
+                    <li>Home</li>
+                    <li>Contact US</li>
+                    <li>About Us</li>
+                    <li>Blog</li>
+                    <li>Academics</li>
+                    <li>Support</li>
+                    <li>Help</li>
+                </ul>
+                
+            </div>
+            <div>
+                <h3>Subscribe to our Newsletter</h3>
+                <div class="footer-search-bar">
+                    <input type="Search">
+                    <button>Submit</button>
+                </div>
+                <div class="footer-socials">
+                    <a href="#"><img src="images/icons/facebook.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/twitter.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/youtube.svg" class="icons"></a>
+                    <a href="#"><img src="images/icons/linkedin.svg" class="icons"></a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html

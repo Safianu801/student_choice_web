@@ -1,0 +1,374 @@
+
+*{
+    margin: 0px;
+    font-family: calibri, sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.849);
+
+}
+
+/* First container styles */
+
+
+.first-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center; 
+    column-gap: 50px;
+    padding: 10px 30px;
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+#side-img-1{
+    height: 40vh;
+    width: 300px;
+}
+.text-side{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    row-gap: 40px;
+}
+.text-side h1{
+    font-size: 300%;
+    margin-bottom: 20px;
+    font-family: calibri;
+}
+.intro-text{
+    font-size: 150%;
+    width: 400px;
+    margin: 10px ;
+    
+}
+.text-side h2{
+    font-size: 40px;
+}
+.download-area{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 20px;
+
+}
+.download-area h2{
+    font-size: 20px;
+}
+.download-btn{
+width: 190px;
+height: 60px;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+column-gap: 10px;
+border-radius: 10px;
+border: none;
+display: flex;
+font-weight: 300;
+}
+.download-btn img{
+    width: 30px;
+}
+
+
+/* Second container styles ..................*/
+
+.second-container{
+    background-image: url("/images/IMG-20240830-WA0003.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 70px;
+    border-radius: 5px;
+}
+.second-container h1{
+    font-size: 54px;
+    width: 300px;
+    color: white;
+}
+.overlay{
+    background-color: rgba(80, 2, 116, 0.562);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.container2-contents{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    position: relative;
+    z-index: 2;
+}
+.container2-cards{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.514);
+    min-width: 300px;
+}
+
+/* Third container styles */
+.container-3-heading{
+    margin: 100px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.third-container{
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    align-items: center;
+    margin: 40px auto;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.container3-cards{
+    padding: 30px 60px;
+    box-shadow: 1px 1px 5px rgba(121, 120, 120, 0.733);
+    text-align: center;
+}
+.container3-cards img{
+    width: 300px;
+}
+.container-3-heading h6{
+    font-size: 22px;
+    color: purple;
+}
+.container3-btn{
+    margin-top: 10px ;
+    height: 40px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(202, 20, 202);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    color: white;
+}
+
+/* fourth container styles */
+.fourth-container{
+    margin: 200px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap ;
+}
+.fourth-container img{
+    width: 500px;
+}
+.container4-text{
+    display: flex;
+    flex-direction: column;
+}
+.fourth-container p{
+    width: 400px;
+    text-wrap: wrap;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.fourth-container h3{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+.fourth-container button{
+    padding: 15px;
+    background-color: rgb(202, 20, 202); 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+} 
+@media(max-width: 430px){
+    /* First container styles */
+
+
+.first-container{
+    margin-top: 100px;
+    display: flex;
+}
+#side-img-1{
+    height: 40vh;
+    width: 300px;
+}
+.text-side{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-side h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+    font-family: calibri;
+}
+.intro-text{
+    font-size: 16px;
+    width: 400px;
+    margin: 10px ;
+    word-wrap: break-word;
+    width: 200px;
+    
+}
+.text-side h2{
+    font-size: 24px;
+}
+.download-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 20px;
+    margin-top: 20px;
+
+}
+.download-area h2{
+    font-size: 18px;
+}
+.download-btn{
+    width: 130px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    column-gap: 10px;
+    border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+.download-btn img{
+    width: 20px;
+}
+
+
+/* Second container styles ..................*/
+
+.second-container{
+    background-image:none;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 70px;
+}
+.second-container h1{
+    font-size: 38px;
+    text-align: center;
+    width: 300px;
+    color: rgb(44, 42, 42);
+    margin-bottom: 30px;
+}
+.overlay{
+   display: none;
+}
+.container2-contents{
+    display: flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    position: relative;
+    z-index: 2;
+}
+.container2-cards{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+/* Third container styles */
+.container-3-heading{
+    margin: 100px 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.third-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: 50px;
+    align-items: center;
+    margin: 40px auto;
+    flex-wrap: nowrap;
+    row-gap: 20px;
+}
+.container3-cards{
+    padding: 20px 50px;
+    box-shadow: 1px 1px 5px rgba(121, 120, 120, 0.733); 
+    text-align: center;
+}
+.container3-cards img{
+    width: 220px;
+    height: 200px;
+}
+.container-3-heading h6{
+    font-size: 20px;
+    color: purple;
+}
+.container3-btn{
+    margin-top: 10px ;
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: rgb(190, 16, 190);
+    box-shadow: -3px 3px 4px rgb(201, 177, 181);
+    color: white;
+}
+
+/* fourth container styles */
+.fourth-container{
+    margin: 150px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: nowrap ;
+}
+.fourth-container img{
+    width: 300px;
+}
+.container4-text{
+    display: flex;
+    flex-direction: column;
+}
+.fourth-container p{
+    width: 300px;
+    text-wrap: wrap;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.fourth-container h3{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+.fourth-container button{
+    padding: 15px;
+    background-color: rgb(202, 20, 202); 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 1px 2px 6px gray;
+}
+}
+
+
+
+
+
+
