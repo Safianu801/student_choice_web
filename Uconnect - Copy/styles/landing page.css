@@ -76,55 +76,42 @@ font-weight: 300;
 /* Second container styles ..................*/
 
 .second-container{
-    background-image: url("/images/IMG-20240830-WA0003.jpg");
-    background-position: center;
-    background-size: cover;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 70px;
+    padding: 50px 100px;
     border-radius: 5px;
+    background-color: rgba(153, 9, 158, 0.164);
 }
 .second-container h1{
     font-size: 54px;
     width: 300px;
-    color: white;
-}
-.overlay{
-    background-color: rgba(80, 2, 116, 0.562);
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
-}
-.container2-contents{
-    display: flex;
-    align-items: center ;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
-    position: relative;
-    z-index: 2;
+    color: rgb(5, 5, 5);
 }
 .container2-cards{
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
     height: 300px;
-    border: none;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.514);
-    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
+.second-container img{
+    width: 200px;
 }
 
 /* Third container styles */
 .container-3-heading{
     margin: 100px 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .third-container{
     display: flex;
@@ -133,30 +120,20 @@ font-weight: 300;
     align-items: center;
     margin: 40px auto;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 50px;
 }
 .container3-cards{
-    padding: 30px 60px;
+    padding: 20px 10px;
     box-shadow: 1px 1px 5px rgba(121, 120, 120, 0.733);
     text-align: center;
 }
 .container3-cards img{
     width: 300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
 }
-.container-3-heading h6{
-    font-size: 22px;
-    color: purple;
-}
-.container3-btn{
-    margin-top: 10px ;
-    height: 40px;
-    width: 100px;
-    text-align: center;
-    border-radius: 8px;
-    border: none;
-    background-color: rgb(202, 20, 202);
-    box-shadow: -2px 3px 8px rgba(5, 5, 5, 0.836);
-    color: white;
+.container-3-heading h2{
+    font-size: 40px;
 }
 
 /* fourth container styles */
@@ -170,6 +147,8 @@ font-weight: 300;
 }
 .fourth-container img{
     width: 500px;
+    box-shadow: 3px 3px 10px rgba(14, 14, 14, 0.507);
+    border-radius: 5px;
 }
 .container4-text{
     display: flex;
@@ -265,34 +244,36 @@ font-weight: 300;
 /* Second container styles ..................*/
 
 .second-container{
-    background-image:none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 30px;
     margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 70px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    background-color: rgba(153, 9, 158, 0.164);
 }
 .second-container h1{
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
     width: 300px;
-    color: rgb(44, 42, 42);
-    margin-bottom: 30px;
-}
-.overlay{
-   display: none;
-}
-.container2-contents{
-    display: flex;
-    align-items: center ;
-    justify-content: center;
-    flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 20px;
-    position: relative;
-    z-index: 2;
+    color: rgb(5, 5, 5);
 }
 .container2-cards{
-    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
+.second-container img{
+    width: 200px;
 }
 
 /* Third container styles */
@@ -309,16 +290,16 @@ font-weight: 300;
     align-items: center;
     margin: 40px auto;
     flex-wrap: nowrap;
-    row-gap: 20px;
+    row-gap: 50px;
 }
 .container3-cards{
-    padding: 20px 50px;
-    box-shadow: 1px 1px 5px rgba(121, 120, 120, 0.733); 
+    padding: 20px 10px;
+    box-shadow: 1px 1px 5px rgba(121, 120, 120, 0.733);
     text-align: center;
 }
 .container3-cards img{
-    width: 220px;
-    height: 200px;
+    width: 250px;
+    margin-bottom: 30px;
 }
 .container-3-heading h6{
     font-size: 20px;
