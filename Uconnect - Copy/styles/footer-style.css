@@ -2,11 +2,10 @@ footer{
     font-family:calibri, "san serif";
     font-size: 16px;
     font-weight: 500;
-    margin: auto;
 }
 .footer{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
     background-color: pink;
@@ -18,14 +17,23 @@ footer{
 .footer-contact{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 16px;
     column-gap: 10px;
-    row-gap: 20px;
+    row-gap: 10px;
     text-align: center;
+    flex-wrap: nowrap;
 }
 footer .icons{
     width: 25px;
     height: 25px;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.603);
+
 }
 footer ul{
     list-style-type: none;
@@ -37,6 +45,7 @@ footer input{
     width: 210px;
     height: 40px;
     border: none;
+    outline: none;
 }
 footer button{
     width: 65px;
@@ -44,6 +53,7 @@ footer button{
     border: none;
     color: rgb(255, 255, 255);
     background-color: rgb(67, 7, 90);
+    border-radius: 3px;
 }
 .footer-search-bar{
     display: flex;
@@ -53,6 +63,8 @@ footer button{
     margin: 5px;
     border: none;
     padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(31, 30, 30, 0.267);
 }
 .footer-socials{
     display: flex;
@@ -60,6 +72,22 @@ footer button{
     column-gap: 10px;
     margin-top: 50px;
     column-gap: 30px;
+}
+.footer-contact img{
+    width: 20px;
+    height: 20px;
+}
+.footer-contact .contact-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+.newsletter-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* @media screen 430px */
@@ -73,25 +101,29 @@ footer button{
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
+        justify-content: center;
         flex-wrap: nowrap;
         background-color: pink;
         color: purple;
-        row-gap: 50px;
+        row-gap: 40px;
     }
     .footer-contact{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         font-size: 16px;
-        column-gap: 10px;
-        row-gap: 20px;
-        text-align: center;
+        column-gap: 8px;
+        row-gap: 5px;
+        flex-wrap: nowrap;
     }
     footer .icons{
         width: 25px;
         height: 25px;
     }
     footer ul{
-        list-style-type: none;
+        margin-left: -30px;
+        list-style: none;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -117,7 +149,7 @@ footer button{
         background-color: white;
         margin: 5px;
         border: none;
-        padding: 5px;
+        padding: 5px 8px;
     }
     .footer-socials{
         display: flex;
@@ -126,5 +158,15 @@ footer button{
         column-gap: 10px;
         margin-top: 50px;
         column-gap: 30px;
+    }
+    .footer-contact img{
+        width: 20px;
+        height: 18px;
+    }
+    .footer-contact .contact-items{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
     }
 }

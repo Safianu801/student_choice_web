@@ -6,12 +6,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 5px double rgba(18, 46, 173, 0.658);
-    width: 600px;
-    height: 600px;
-    margin: 50px auto;
-    font-family: calibri;   
-    border-radius: 5px;
+    margin: 150px auto;
+    font-family: calibri; 
 }
 #google-sign-btn{
     width: 300px;

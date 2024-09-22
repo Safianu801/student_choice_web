@@ -23,6 +23,8 @@ body{
 #side-img-1{
     height: 40vh;
     width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.596);;
 }
 .text-side{
     display: flex;
@@ -111,7 +113,9 @@ font-weight: 300;
 .container2-cards{
     width: 300px;
     height: 300px;
-    border: 1px solid black;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.295);
+    border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.514);
     min-width: 300px;
 }
@@ -147,10 +151,11 @@ font-weight: 300;
     margin-top: 10px ;
     height: 40px;
     width: 100px;
+    text-align: center;
     border-radius: 8px;
     border: none;
     background-color: rgb(202, 20, 202);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    box-shadow: -2px 3px 8px rgba(5, 5, 5, 0.836);
     color: white;
 }
 
@@ -197,6 +202,8 @@ font-weight: 300;
 .first-container{
     margin-top: 100px;
     display: flex;
+    align-items: center;
+    align-items: center;
 }
 #side-img-1{
     height: 40vh;
@@ -261,7 +268,7 @@ font-weight: 300;
     background-image:none;
     margin-top: 50px;
     margin-left: 20px;
-    margin-right: 0px;
+    margin-right: 20px;
     padding: 70px;
 }
 .second-container h1{
@@ -277,6 +284,7 @@ font-weight: 300;
 .container2-contents{
     display: flex;
     align-items: center ;
+    justify-content: center;
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 20px;
@@ -284,13 +292,12 @@ font-weight: 300;
     z-index: 2;
 }
 .container2-cards{
-    border: 1px solid black;
     background-color: rgba(255, 255, 255, 0.514);
 }
 
 /* Third container styles */
 .container-3-heading{
-    margin: 100px 20px;
+    margin: 50px 20px;
     text-align: center;
     font-size: 40px;
 }
@@ -319,11 +326,13 @@ font-weight: 300;
 }
 .container3-btn{
     margin-top: 10px ;
-    padding: 10px 25px;
-    border-radius: 3px;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
     border: none;
-    background-color: rgb(190, 16, 190);
-    box-shadow: -3px 3px 4px rgb(201, 177, 181);
+    background-color: rgb(202, 20, 202);
+    box-shadow: -2px 3px 8px rgba(5, 5, 5, 0.836);
     color: white;
 }
 
