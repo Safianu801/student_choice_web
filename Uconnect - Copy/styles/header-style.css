@@ -1,12 +1,12 @@
 nav{
     display: flex;
-    justify-content: space-around;
-    column-gap: 10px;
+    justify-content: center;
+    column-gap: 200px;
     align-items: center;
     padding: 20px;
     margin: 30px 100px;
     row-gap: 40px;
-    font-family: calibri;
+    font-family: Lato, calibri;
 
 }
 #nav-elements{
@@ -16,15 +16,16 @@ nav{
     text-wrap: nowrap;
     list-style: none;
     text-decoration: none;
+    font-family: Lato, calibri;
 }
 #nav-elements a{
     text-decoration: none;
-    font-family: calibri;
-    font-weight: 500;
-    font-size: 14px;
+    font-family: Lato, calibri;
+    font-weight: 600;
+    font-size: 16px;
     letter-spacing: 2px;
     transition: ease-out 0.3s;
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.726);
 }
 #nav-elements a:hover{
     border-bottom: 3px solid black;
@@ -34,9 +35,10 @@ nav{
     display: flex;
     align-items: center;
     column-gap: 20px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 16px;
+    justify-self: right;
 }
 #sign-div button{
     padding: 8px 20px;
@@ -44,7 +46,7 @@ nav{
     color: white;
     border: none;
     font-size: 12px;
-    letter-spacing: 1px;
+    letter-spacing: 1px;    
     border-radius: 3px;
 }
 #sign-div a{
@@ -52,6 +54,11 @@ nav{
     color: rgb(8, 8, 8);
     text-wrap: nowrap;
     
+}
+#sign-in-link{
+    border: 1px solid rgba(0, 0, 0, 0.808);
+    padding: 5px 13px;
+    border-radius: 3px;
 }
 /* toggle button */
 #display-nav-btn{
@@ -83,7 +90,7 @@ nav{
     font-size: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Lato, calibri;
 
 }
 #hidden-nav ul{
