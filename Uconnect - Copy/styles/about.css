@@ -2,41 +2,47 @@
 body{
     background-color: rgba(255, 255, 255, 0.849);
     padding: auto 35px;
-    font-family: calibri;
+    font-family: Unbounded, calibri
 }
-h1,h2,h3{
+p{
+    font-family: Montserrat, 'sans serif';
+}
+h1,h2,h3,h4,h5,h6{
+    text-align: center;
+    font-family: Unbounded;
     text-align: center;
 }
 .images{
     width: 150px;
-    box-shadow: 1px 1px 3px black;
-    border-radius: 150px;
+    border-radius: 5px;
 
 }
 .about-cards-container{
     display: flex;
-    column-gap: 100px;
-    row-gap: 50px;
+    column-gap: 10px;
+    row-gap: 30px;
     justify-content: center;
-    margin: 100px 10px;
-    padding: 20px;
+    margin: 50px 10px;
+    padding: 10px;
     text-align: center;
     flex-wrap: wrap;
 }
 .cards{
-    background-color: rgba(252, 252, 252, 0);
     padding: 50px;
     margin: 5px;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
-    box-shadow: 2px 2px 10px rgba(29, 28, 28, 0.24);
+    row-gap: 20px;
     border-radius: 10px;
+    border: 2px solid rgb(238, 232, 232);
 }
 .name{
     font-size: 22px;
     font-weight: 600;
-    font-family: Roboto, Calibri;
+    font-family: lato, calibri ;
+}
+.job-title{
+    width: 200px;
 }
 .story-container{
     display: flex;
@@ -54,50 +60,18 @@ h1,h2,h3{
     padding: 30px;
 }
 .side-image img{
-    max-width: 350px;
+    max-width: 300px;
     min-width: 300px;
     
 }
-.invitation-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
-    padding: 100px 50px;
-    background-color: rgba(128, 128, 128, 0.103);
-    flex-wrap: wrap;    
-}
-.invitation-container img{
-    width: 400px;
-}
-.invitation-container p{
-    max-width: 400px;
-    text-wrap: wrap;
-    font-size: 17px;
-}
-.invite-text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
-#btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 3px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: rgb(202, 20, 202);
-    box-shadow: -3px 3px 4px rgb(148, 144, 144);
-    color: white;
-}
+
 #heading-text{
     font-size: 60px;
 
 }
 .heading{
     margin-bottom: 50px;
-    padding: 90px;
+    padding: 50px 90px;
     background-color: rgba(186, 113, 201, 0.322);
     color: white;
 }
@@ -111,7 +85,7 @@ h1,h2,h3{
     width: 20px;
     box-shadow: 1px 1px 3px gray;
     background-color: rgb(255, 255, 255);
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 5px;
 }
 a{
@@ -137,7 +111,6 @@ h1,h2,h3{
     flex-wrap: wrap;
 }
 .cards{
-    background-color: rgba(128, 128, 128, 0.048);
     padding: 30px;
     margin: 5px;
 }
@@ -163,40 +136,8 @@ h1,h2,h3{
     width: 300px;
     
 }
-.invitation-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 80px;
-    padding: 100px 20px;
-    background-color: rgba(128, 128, 128, 0.103);
-    flex-wrap: wrap;    
-}
-.invitation-container img{
-    width: 300px;
-}
-.invitation-container p{
-    text-wrap: wrap;
-    font-size: 17px;
-}
-.invite-text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-}
-#btn{
-    width: 100px;
-    height: 40px;
-    border-radius: 3px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    border: none;
-    background-color: rgb(202, 20, 202);
-    box-shadow: -3px 3px 4px rgb(148, 144, 144);
-    color: white;
-}
 #heading-text{
-    font-size: 60px;
+    font-size: 40px;
 
 }
 .heading{
@@ -212,7 +153,6 @@ h1,h2,h3{
 }
 .social-icons{
     width: 15px;
-    border: 1px solid rgb(66, 6, 78);
     padding: 3px;
 }
 a{

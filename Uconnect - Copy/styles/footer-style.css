@@ -81,7 +81,8 @@ footer button{
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10px;
+    column-gap: 5px;
+    font-size: 12px;
 }
 .newsletter-div{
     display: flex;
@@ -168,5 +169,6 @@ footer button{
         justify-content: center;
         align-items: center;
         column-gap: 5px;
+        row-gap: 20px;
     }
 }
